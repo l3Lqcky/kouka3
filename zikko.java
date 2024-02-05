@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
-public class zikko {
+public class Zikko {
 
 public static void main(String[] args) {
     CarEncyclopedia encyclopedia = new CarEncyclopedia();
@@ -16,6 +16,7 @@ public static void main(String[] args) {
             System.out.print("選択してください: ");
             int choice = scanner.nextInt();
             scanner.nextLine(); 
+            System.out.print("車種を選択してください:");
 
             switch (choice) {
                 case 1:

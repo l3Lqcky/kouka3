@@ -1,7 +1,11 @@
 // Car.java
+
+import java.util.Scanner;
+
 public class Car {
     private String modelName;
     private String details;
+    public Scanner scanner;
 
     // public Car(){}
 
@@ -18,3 +22,4 @@ public class Car {
         return details;
     }
 }
+
